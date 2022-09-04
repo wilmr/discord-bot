@@ -1,0 +1,29 @@
+{
+	"name": "discord-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./src/bot.js",
+	"scripts": {
+		"start": "node bot.js",
+		"devstart": "nodemon bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wilmr/discord-bot.git"
+	},
+	"keywords": [],
+	"author": "wilmer martinez",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wilmr/discord-bot/issues"
+	},
+	"homepage": "https://github.com/wilmr/discord-bot#readme",
+	"dependencies": {
+		"@discordjs/rest": "^1.1.0",
+		"chalk": "^4.1.2",
+		"discord-api-types": "^0.37.5",
+		"discord.js": "^14.3.0",
+		"dotenv": "^16.0.2",
+		"nodemon": "^2.0.19"
+	}
+}
